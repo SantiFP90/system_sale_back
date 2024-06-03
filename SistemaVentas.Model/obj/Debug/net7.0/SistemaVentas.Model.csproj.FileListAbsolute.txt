@@ -1,0 +1,14 @@
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\bin\Debug\net7.0\SistemaVentas.Model.deps.json
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\bin\Debug\net7.0\SistemaVentas.Model.runtimeconfig.json
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\bin\Debug\net7.0\SistemaVentas.Model.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\bin\Debug\net7.0\SistemaVentas.Model.pdb
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.csproj.AssemblyReference.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.AssemblyInfoInputs.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.AssemblyInfo.cs
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.csproj.CoreCompileInputs.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\refint\SistemaVentas.Model.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.pdb
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\SistemaVentas.Model.genruntimeconfig.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.Model\obj\Debug\net7.0\ref\SistemaVentas.Model.dll

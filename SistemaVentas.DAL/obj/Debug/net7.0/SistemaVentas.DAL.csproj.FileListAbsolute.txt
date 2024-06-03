@@ -1,0 +1,15 @@
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVentas.DAL.deps.json
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVentas.DAL.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVentas.DAL.pdb
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.AssemblyInfoInputs.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.AssemblyInfo.cs
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.csproj.CoreCompileInputs.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\refint\SistemaVentas.DAL.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.pdb
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\ref\SistemaVentas.DAL.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVentas.Model.dll
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\bin\Debug\net7.0\SistemaVentas.Model.pdb
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.csproj.AssemblyReference.cache
+C:\Users\sfernandez\Desktop\project\backend_sistemaDeVentas\SistemaVentas.DAL\obj\Debug\net7.0\SistemaVentas.DAL.csproj.CopyComplete
