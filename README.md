@@ -342,13 +342,3 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 ```
 
 ---
-
-## **5. Conclusión**
-Con esta estructura y configuraciones, tendrás una aplicación .NET 8 robusta, escalable y bien organizada. Hemos cubierto:
-- **Configuraciones avanzadas** con `appsettings.json`.
-- **Arquitectura de repositorio** con Entity Framework Core.
-- **JWT** para autenticación segura.
-- **DTOs y mappers** para transferencia de datos.
-- **Organización de dependencias** para un código limpio y mantenible.
-
-Si necesitas más detalles o tienes preguntas adicionales, ¡no dudes en preguntar! 😊
