@@ -5,7 +5,7 @@ La clave de esta documentación, es comprender el flujo practico/teorico del pat
 ---
 
 ## **1. Estructura del Proyecto**
-Aquí está la estructura del proyecto que utilizaremos:
+Aquí está la estructura del proyecto (ejemplo/conceptual) que utilizaremos:
 
 ```
 - MyApp/
