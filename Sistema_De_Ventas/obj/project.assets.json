@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -3802,7 +3802,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.12",
       "SistemaVenta.IOC >= 1.0.0",
       "SistemaVentas.BLL >= 1.0.0",
@@ -3817,38 +3817,39 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
       "projectName": "Sistema_De_Ventas",
-      "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+      "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
       "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\Sistema_De_Ventas\\obj\\",
+      "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
             }
           }
         }
@@ -3857,11 +3858,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -3891,7 +3897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

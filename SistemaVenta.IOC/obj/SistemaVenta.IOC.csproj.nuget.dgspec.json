@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {}
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "projectName": "SistemaVenta.IOC",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,20 +22,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
               }
             }
           }
@@ -44,6 +45,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,23 +66,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "projectName": "SistemaVenta.Utility",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,17 +107,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -106,6 +127,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -132,23 +158,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
         "projectName": "SistemaVentas.BLL",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,23 +199,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -184,6 +225,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -200,23 +246,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
         "projectName": "SistemaVentas.DAL",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -227,14 +287,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -243,6 +304,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -259,23 +325,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
         "projectName": "SistemaVentas.DTO",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -286,6 +366,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -298,6 +379,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -314,23 +400,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+    "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
         "projectName": "SistemaVentas.Model",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+        "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
         "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.Model\\obj\\",
+        "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -341,6 +441,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -353,6 +454,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -381,12 +487,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

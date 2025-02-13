@@ -640,7 +640,10 @@
           "SistemaVentas.Model": "1.0.0"
         },
         "runtime": {
-          "SistemaVenta.Utility.dll": {}
+          "SistemaVenta.Utility.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SistemaVentas.DAL/1.0.0": {
@@ -648,12 +651,18 @@
           "SistemaVentas.Model": "1.0.0"
         },
         "runtime": {
-          "SistemaVentas.DAL.dll": {}
+          "SistemaVentas.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SistemaVentas.DTO/1.0.0": {
         "runtime": {
-          "SistemaVentas.DTO.dll": {}
+          "SistemaVentas.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SistemaVentas.Model/1.0.0": {
@@ -661,7 +670,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
         },
         "runtime": {
-          "SistemaVentas.Model.dll": {}
+          "SistemaVentas.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

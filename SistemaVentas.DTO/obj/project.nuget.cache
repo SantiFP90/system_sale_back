@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UEGd6y5lhA/ACLzj+swZ4+uskPdDYBpY4f1Cz8hnJiEZ7tj/chuPIO3Z9Kwrw+OjFoBztqoFJ0Gq9UJnctzWaA==",
+  "dgSpecHash": "IU56U+gyP1E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sfernandez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\sfernandez\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\sfernandez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

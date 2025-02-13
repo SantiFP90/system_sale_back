@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LdSfOT8qwMVyb9Ft36VpDK6CG8jz4nciNFOKu+njI3kjlZlT4ToI7DgDlzohkSgqEPH5HZcibVbgkIHIzYhKHA==",
+  "dgSpecHash": "SoH98tBxx+o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+  "projectFilePath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sfernandez\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\sfernandez\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -83,28 +83,16 @@ namespace SistemaVentas.BLL.Servicios
 
         public Task<bool> Editar(UsuarioDTO modelo)
         {
-            try
-            {
-                return;
-            }
-            catch
-            {
-                throw;
-            }
+            bool resultado = true; 
+            return Task.FromResult(resultado);
         }
 
         public Task<bool> Eliminar(UsuarioDTO modelo)
         {
-            try
-            {
-                return;
-            }
-            catch
-            {
-                throw;
-            }
+            bool resultado = true;
+            return Task.FromResult(resultado);
         }
 
-       
+
     }
 }

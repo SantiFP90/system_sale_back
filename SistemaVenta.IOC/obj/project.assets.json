@@ -3338,11 +3338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
       "projectName": "SistemaVenta.IOC",
-      "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+      "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
       "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.IOC\\obj\\",
+      "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3353,20 +3353,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\backend_sistemaDeVentas\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
             }
           }
         }
@@ -3375,6 +3376,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3391,12 +3397,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
