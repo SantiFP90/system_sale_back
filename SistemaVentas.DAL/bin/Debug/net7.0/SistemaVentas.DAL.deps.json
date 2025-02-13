@@ -611,7 +611,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
         },
         "runtime": {
-          "SistemaVentas.Model.dll": {}
+          "SistemaVentas.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
