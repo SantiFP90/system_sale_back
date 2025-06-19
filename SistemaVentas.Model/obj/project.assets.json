@@ -3466,11 +3466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
       "projectName": "SistemaVentas.Model",
-      "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+      "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
       "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\obj\\",
+      "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3527,20 +3527,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

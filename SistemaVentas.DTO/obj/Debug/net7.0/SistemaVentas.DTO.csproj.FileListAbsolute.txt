@@ -21,3 +21,15 @@ C:\Users\sfernandez\Desktop\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\
 C:\Users\sfernandez\Desktop\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\refint\SistemaVentas.DTO.dll
 C:\Users\sfernandez\Desktop\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.pdb
 C:\Users\sfernandez\Desktop\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\ref\SistemaVentas.DTO.dll
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\bin\Debug\net7.0\SistemaVentas.DTO.deps.json
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\bin\Debug\net7.0\SistemaVentas.DTO.dll
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\bin\Debug\net7.0\SistemaVentas.DTO.pdb
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.AssemblyInfoInputs.cache
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.AssemblyInfo.cs
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.csproj.CoreCompileInputs.cache
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.sourcelink.json
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.dll
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\refint\SistemaVentas.DTO.dll
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\SistemaVentas.DTO.pdb
+C:\Users\sfernandez\Desktop\project\system_sale_back\SistemaVentas.DTO\obj\Debug\net7.0\ref\SistemaVentas.DTO.dll

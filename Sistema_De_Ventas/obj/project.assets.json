@@ -3817,11 +3817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+      "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
       "projectName": "Sistema_De_Ventas",
-      "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+      "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
       "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\Sistema_De_Ventas\\obj\\",
+      "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3839,17 +3839,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
             },
-            "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-              "projectPath": "C:\\Users\\sfernandez\\Desktop\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+            "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+              "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
             }
           }
         }

@@ -81,16 +81,69 @@ namespace SistemaVentas.BLL.Servicios
             }
         }
 
-        public Task<bool> Editar(UsuarioDTO modelo)
+        public async Task<bool> Editar(UsuarioDTO modelo)
         {
-            bool resultado = true; 
-            return Task.FromResult(resultado);
+            try
+            {
+                var usuarioModelo = _mapper.Map<Usuario>(modelo);
+
+                var usuarioEncontrado = await _usuarioRepositorio.Obtener(u => u.IdUsuario == usuarioModelo.IdUsuario);
+
+                if(usuarioEncontrado == null)
+                {
+                    throw new TaskCanceledException("No se ha encontrado el usuario a editar.");
+                }
+
+                usuarioEncontrado.NombreCompleto = usuarioModelo.NombreCompleto;
+                usuarioEncontrado.Correo = usuarioModelo.Correo;
+                usuarioEncontrado.IdRol = usuarioModelo.IdRol;
+                usuarioEncontrado.Clave = usuarioModelo.Clave;
+                usuarioEncontrado.EsActivo = usuarioModelo.EsActivo;
+
+                bool respuesta = await _usuarioRepositorio.Editar(usuarioEncontrado);
+
+                if (!respuesta)
+                {
+                    throw new TaskCanceledException("No se pudo editar el usuario.");
+                }
+
+                return respuesta;
+
+            }
+            catch
+            {
+                throw;
+            }
         }
 
-        public Task<bool> Eliminar(UsuarioDTO modelo)
+        public async Task<bool> Eliminar(UsuarioDTO modelo)
         {
-            bool resultado = true;
-            return Task.FromResult(resultado);
+            try
+            {
+                var usuarioModelo = _mapper.Map<Usuario>(modelo);
+
+                var usuarioEncontrado = await _usuarioRepositorio.Obtener(u => u.IdUsuario == usuarioModelo.IdUsuario);
+
+                if (usuarioEncontrado == null)
+                {
+                    throw new TaskCanceledException("No se ha encontrado el usuario a eliminar.");
+                }
+
+
+                bool respuesta = await _usuarioRepositorio.Eliminar(usuarioEncontrado);
+
+                if (!respuesta)
+                {
+                    throw new TaskCanceledException("No se pudo eliminar el usuario.");
+                }
+
+                return respuesta;
+
+            }
+            catch
+            {
+                throw;
+            }
         }
 
 
