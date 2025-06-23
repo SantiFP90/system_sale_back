@@ -10,6 +10,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SistemaVentas.BLL.Servicios.Contrato;
+using SistemaVentas.BLL.Servicios;
 
 namespace SistemaVenta.IOC
 {
@@ -30,6 +32,14 @@ namespace SistemaVenta.IOC
 
             //DEPENDENCIA DE AUTOMAPPER
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
+            services.AddScoped<IRolService, RolService>();
+            services.AddScoped<IUsuarioService, UsarioService>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddScoped<IProductoService, ProductoService>();
+            services.AddScoped<IVentaService, VentaService>();
+            services.AddScoped<IMenu, MenuService>();
+            services.AddScoped<IDashboardService, DashboardService>();
 
         }
     }
