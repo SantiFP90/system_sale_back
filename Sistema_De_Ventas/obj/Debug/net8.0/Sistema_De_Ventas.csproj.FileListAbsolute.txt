@@ -170,3 +170,4 @@ C:\Users\sfernandez\Desktop\project\system_sale_back\Sistema_De_Ventas\obj\Debug
 C:\Users\sfernandez\Desktop\project\system_sale_back\Sistema_De_Ventas\obj\Debug\net8.0\Sistema_De_Ventas.pdb
 C:\Users\sfernandez\Desktop\project\system_sale_back\Sistema_De_Ventas\obj\Debug\net8.0\Sistema_De_Ventas.genruntimeconfig.cache
 C:\Users\sfernandez\Desktop\project\system_sale_back\Sistema_De_Ventas\obj\Debug\net8.0\ref\Sistema_De_Ventas.dll
+C:\Users\sfernandez\Desktop\project\system_sale_back\Sistema_De_Ventas\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

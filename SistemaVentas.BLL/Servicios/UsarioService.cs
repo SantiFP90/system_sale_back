@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics.Internal;
+using SistemaVenta.Utility;
 using SistemaVentas.BLL.Servicios.Contrato;
 using SistemaVentas.DAL.Repositorios.Contrato;
 using SistemaVentas.DTO;
 using SistemaVentas.Model;
+
+
 
 namespace SistemaVentas.BLL.Servicios
 {
@@ -20,11 +23,13 @@ namespace SistemaVentas.BLL.Servicios
         //y agregamos la variable mapper que viene  Imapper
         private readonly IGenericRepository<Usuario> _usuarioRepositorio;
         private readonly IMapper _mapper;
+        private readonly Jwt _jwt;
 
-        public UsarioService(IGenericRepository<Usuario> usuarioRepositorio, IMapper mapper)
+        public UsarioService(IGenericRepository<Usuario> usuarioRepositorio, IMapper mapper, Jwt jwt)
         {
             _usuarioRepositorio = usuarioRepositorio;
             _mapper = mapper;
+            _jwt = jwt;
         }
 
         public async Task<List<UsuarioDTO>> Lista()
@@ -46,15 +51,21 @@ namespace SistemaVentas.BLL.Servicios
             {
                 var queryUsuario = await _usuarioRepositorio.Consultar(u => 
                 u.Correo == correo &&
-                u.Clave == clave
+                u.Clave == _jwt.encriptarSHA256(clave)
                 );
 
                 if(queryUsuario.FirstOrDefault() == null)
                 {
                     throw new TaskCanceledException("El usuario no existe.");
                 }
+
                 Usuario devolverUsuario = queryUsuario.Include(rol => rol.IdRolNavigation).First();
-                return _mapper.Map<SesionDTO>(devolverUsuario);
+
+                var usuarioLogueado = _mapper.Map<SesionDTO>(devolverUsuario);
+
+                usuarioLogueado.Token = _jwt.GenerarToken(usuarioLogueado);
+
+                return  usuarioLogueado;
             }
             catch
             {
@@ -66,13 +77,19 @@ namespace SistemaVentas.BLL.Servicios
         {
             try
             {
+                modelo.Clave = _jwt.encriptarSHA256(modelo.Clave!);
+
                 var usuarioCreado = await _usuarioRepositorio.Crear(_mapper.Map<Usuario>(modelo));
+
                 if(usuarioCreado.IdUsuario == 0)
                 {
                     throw new TaskCanceledException("Error al crear el usuario.");
                 }
+
                 var query = await _usuarioRepositorio.Consultar(u => u.IdUsuario == usuarioCreado.IdUsuario);
+
                 usuarioCreado = query.Include(rol => rol.IdRolNavigation).First();
+
                 return _mapper.Map<UsuarioDTO>(usuarioCreado);
             }
             catch
@@ -116,13 +133,12 @@ namespace SistemaVentas.BLL.Servicios
             }
         }
 
-        public async Task<bool> Eliminar(UsuarioDTO modelo)
+        public async Task<bool> Eliminar(int id)
         {
             try
             {
-                var usuarioModelo = _mapper.Map<Usuario>(modelo);
 
-                var usuarioEncontrado = await _usuarioRepositorio.Obtener(u => u.IdUsuario == usuarioModelo.IdUsuario);
+                var usuarioEncontrado = await _usuarioRepositorio.Obtener(u => u.IdUsuario == id);
 
                 if (usuarioEncontrado == null)
                 {

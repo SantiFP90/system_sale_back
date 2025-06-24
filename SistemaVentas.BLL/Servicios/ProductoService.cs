@@ -94,13 +94,11 @@ namespace SistemaVentas.BLL.Servicios
             }
         }
 
-        public async Task<bool> Eliminar(ProductoDTO modelo)
+        public async Task<bool> Eliminar(int id)
         {
             try
             {
-                var productoModelo = _mapper.Map<Producto>(modelo);
-
-                var productoEncontrado = await _productoRepositorio.Obtener(u => u.IdProducto == productoModelo.IdProducto);
+                var productoEncontrado = await _productoRepositorio.Obtener(u => u.IdProducto == id);
 
                 if (productoEncontrado == null)
                 {

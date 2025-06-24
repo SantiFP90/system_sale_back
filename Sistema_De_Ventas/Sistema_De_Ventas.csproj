@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.17" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.12" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SistemaVenta.IOC\SistemaVenta.IOC.csproj" />
+    <ProjectReference Include="..\SistemaVenta.Utility\SistemaVenta.Utility.csproj" />
     <ProjectReference Include="..\SistemaVentas.BLL\SistemaVentas.BLL.csproj" />
+    <ProjectReference Include="..\SistemaVentas.DAL\SistemaVentas.DAL.csproj" />
     <ProjectReference Include="..\SistemaVentas.DTO\SistemaVentas.DTO.csproj" />
     <ProjectReference Include="..\SistemaVentas.Model\SistemaVentas.Model.csproj" />
   </ItemGroup>

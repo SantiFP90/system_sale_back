@@ -15,6 +15,6 @@ namespace SistemaVentas.BLL.Servicios.Contrato
         Task<SesionDTO> ValidarCredenciales(string correo, string clave);
         Task<UsuarioDTO> Crear(UsuarioDTO modelo);
         Task<bool> Editar(UsuarioDTO modelo);
-        Task<bool> Eliminar(UsuarioDTO modelo);
+        Task<bool> Eliminar(int id);
     }
 }
