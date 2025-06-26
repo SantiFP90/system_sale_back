@@ -33,7 +33,10 @@ namespace SistemaVentas.BLL.Servicios
 
                 var listaProductos = queryProduto.Include(cat => cat.IdCategoriaNavigation).ToList();
 
-                return _mapper.Map<List<ProductoDTO>>(listaProductos).ToList();
+                //Este es un mapeo explícito
+                List<ProductoDTO> listadoProductosDto = _mapper.Map<List<Producto>, List<ProductoDTO>>(listaProductos);
+
+                return listadoProductosDto;
             }
             catch
             {
@@ -52,6 +55,7 @@ namespace SistemaVentas.BLL.Servicios
                     throw new TaskCanceledException("No se pudo crear el producto");
                 }
 
+                //Este es un mapeo por inferencia
                 return _mapper.Map<ProductoDTO>(productoCreado);
             }
             catch

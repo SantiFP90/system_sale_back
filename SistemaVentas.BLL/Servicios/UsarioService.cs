@@ -49,6 +49,12 @@ namespace SistemaVentas.BLL.Servicios
         {
             try
             {
+                if (!EsCorreoValido(correo))
+                    throw new ArgumentException("Correo inválido.");
+
+                if (!EsClaveSegura(clave))
+                    throw new ArgumentException("La clave debe tener al menos 8 caracteres, una mayúscula y un número.");
+
                 var queryUsuario = await _usuarioRepositorio.Consultar(u => 
                 u.Correo == correo &&
                 u.Clave == _jwt.encriptarSHA256(clave)
@@ -160,6 +166,27 @@ namespace SistemaVentas.BLL.Servicios
             {
                 throw;
             }
+        }
+
+        bool EsCorreoValido(string correo)
+        {
+            try
+            {
+                var mail = new System.Net.Mail.MailAddress(correo);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        bool EsClaveSegura(string clave)
+        {
+            return clave.Length >= 8 &&
+                   clave.Any(char.IsUpper) &&
+                   clave.Any(char.IsLower) &&
+                   clave.Any(char.IsDigit);
         }
 
 

@@ -48,7 +48,7 @@ namespace SistemaVentas.BLL.Servicios
             }
         }
 
-        public async Task<List<VentaDTO>> Historial(string buscarPor, string numeroVenta, string fechaInicio, string fechaFin)
+        public async Task<List<VentaDTO>> Historial(string buscarPor, string numeroVenta, string fechaInicio, string fechaFin, int pagina = 1, int tamañoPagina = 5)
         {
 
 
