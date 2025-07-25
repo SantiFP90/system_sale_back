@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SistemaVentas.BLL.Servicios.Contrato;
 using SistemaVentas.DTO;
 using SistemaVentas.Model;
-using Sistema_De_Ventas.Utilidad;
+using SistemaVenta.Utility.Utilidad;
 using static System.Net.WebRequestMethods;
 using System;
 using SistemaVentas.BLL.Servicios;
