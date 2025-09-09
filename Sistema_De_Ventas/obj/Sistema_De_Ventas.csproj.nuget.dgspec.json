@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj": {}
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
         "projectName": "SistemaVenta.IOC",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,21 +26,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
               }
             }
           }
@@ -50,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -71,21 +75,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
         "projectName": "SistemaVenta.Utility",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,18 +101,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -118,7 +125,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -149,21 +157,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
         "projectName": "SistemaVentas.BLL",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -171,24 +183,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -202,7 +213,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -223,21 +235,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
         "projectName": "SistemaVentas.DAL",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,15 +261,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -267,7 +282,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -288,21 +304,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
         "projectName": "SistemaVentas.DTO",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -310,7 +330,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -328,7 +347,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -349,21 +369,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
         "projectName": "SistemaVentas.Model",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -371,7 +395,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -389,7 +412,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -422,21 +446,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj": {
+    "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+        "projectUniqueName": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
         "projectName": "Sistema_De_Ventas",
-        "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
-        "packagesPath": "C:\\Users\\sfernandez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\Sistema_De_Ventas\\obj\\",
+        "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\Sistema_De_Ventas\\Sistema_De_Ventas.csproj",
+        "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\Sistema_De_Ventas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sfernandez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -444,30 +472,29 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.IOC\\SistemaVenta.IOC.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVenta.Utility\\SistemaVenta.Utility.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.BLL\\SistemaVentas.BLL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DAL\\SistemaVentas.DAL.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.DTO\\SistemaVentas.DTO.csproj"
               },
-              "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
-                "projectPath": "C:\\Users\\sfernandez\\Desktop\\project\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
+              "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj": {
+                "projectPath": "C:\\Users\\santi\\OneDrive\\Desktop\\Proyectos\\system_sale_back\\SistemaVentas.Model\\SistemaVentas.Model.csproj"
               }
             }
           }
@@ -481,7 +508,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -523,7 +551,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

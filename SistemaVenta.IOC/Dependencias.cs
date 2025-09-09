@@ -20,7 +20,7 @@ namespace SistemaVenta.IOC
         //La capa de dependencias en una aplicación se encarga de configurar los servicios que la aplicación necesita, asegurando que las diferentes partes del código tengan acceso a las implementaciones que necesitan.
         public static void InyectarDependencias(this IServiceCollection services, IConfiguration configuration)
         {
-                        services.AddDbContext<QualitySantiagoFernandezContext>(options => {
+                        services.AddDbContext<DataBaseContext>(options => {
                 options.UseSqlServer(configuration.GetConnectionString("MyDatabaseConnection"));
             });
 

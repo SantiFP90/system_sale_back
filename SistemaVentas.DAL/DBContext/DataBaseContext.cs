@@ -6,13 +6,13 @@ using SistemaVentas.Model;
 
 namespace SistemaVentas.DAL.DBContext;
 
-public partial class QualitySantiagoFernandezContext : DbContext
+public partial class DataBaseContext : DbContext
 {
 
-    public QualitySantiagoFernandezContext()
+    public DataBaseContext()
     {}
 
-    public QualitySantiagoFernandezContext(DbContextOptions<QualitySantiagoFernandezContext> options): base(options)
+    public DataBaseContext(DbContextOptions<DataBaseContext> options): base(options)
     {}
 
     public virtual DbSet<Categoria> Categoria { get; set; }

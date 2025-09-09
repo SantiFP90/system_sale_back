@@ -12,9 +12,9 @@ namespace SistemaVentas.DAL.Repositorios
 {
     public class GenericRepository<TModelo> : IGenericRepository<TModelo> where TModelo : class
     {
-        private readonly QualitySantiagoFernandezContext _dbContext;
+        private readonly DataBaseContext _dbContext;
         //Creamos el contuxtor para recibir el contexto y almacenarlo en la variable
-        public GenericRepository(QualitySantiagoFernandezContext dbContext)
+        public GenericRepository(DataBaseContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -87,7 +87,7 @@ namespace SistemaVentas.DAL.Repositorios
             catch
             {
                 throw;
-            }
+            } 
         }
 
     }

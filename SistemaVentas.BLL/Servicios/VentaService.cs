@@ -118,5 +118,10 @@ namespace SistemaVentas.BLL.Servicios
             }
             return _mapper.Map<List<ReporteDTO>>(ListaResultado);
         }
+
+        public Task<List<VentaDTO>> Historial(string buscarPor, string numeroVenta, string fechaInicio, string fechaFin)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
